@@ -1,0 +1,38 @@
+.column {
+  border-right: 1px solid black;
+  flex-basis: 20%;
+
+  &:last-of-type {
+    border-right: 0;
+  }
+
+  .category {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    height: 100px;
+    justify-content: center;
+    padding: 0 10px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .question {
+    background: lightblue;
+    cursor: pointer;
+    height: 50px;
+
+    &:hover {
+      background: cornflowerblue;
+    }
+
+    .value {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

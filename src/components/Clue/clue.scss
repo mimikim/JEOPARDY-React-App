@@ -1,0 +1,21 @@
+.clue-view {
+  background: #EAE5E1;
+  cursor: default;
+  height: 100%;
+  left: 0;
+  padding: 20px 60px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  .clues {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .controls {
+    justify-content: space-evenly;
+    margin-top: 40px;
+  }
+}
